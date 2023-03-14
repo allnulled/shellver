@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Servidor tipo shell para node.js basado en socket.io. Incluye cliente html.",
   "bin": {
-    "shellver-server": "./src/shellver-server.bin.js"
+    "shellver-server": "src/shellver-server.bin.js"
   },
   "main": "src/shellver-server.js",
   "scripts": {
@@ -19,5 +19,9 @@
     "ps-list": "^8.1.1",
     "socket.io": "^4.6.1",
     "socket.io-client": "^4.6.1"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {}
 }

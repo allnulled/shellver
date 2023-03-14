@@ -12,6 +12,8 @@ npm i -g shellver
 
 Shellver está pensado para *(a) acelerar el desarrollo de aplicaciones cliente-servidor* y *(b) crear aplicaciones de escritorio* basadas en javascript del servidor y del cliente.
 
+Se puede usar **castelog** o **javascript**.
+
 ## Uso
 
 · Comando mínimo (levantar servidor y cliente):
