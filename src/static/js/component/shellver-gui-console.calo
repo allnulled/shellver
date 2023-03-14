@@ -1,0 +1,144 @@
+hago una inserción de estilos en cascada llamado "shellver-gui-console-specification-v1" con (un código en css con {
+    .ShellverGuiConsole textarea {
+        background: #000;
+        color: white;
+        text-shadow: 0 0 2px white;
+    }
+    .win7 table {
+        background-color: #ffffff;
+        color: black;
+        border-collapse: collapse;
+    }
+    .win7 table td {
+
+    }
+    .win7 table td.active {
+        border: 3px solid #111;
+    }
+    .win7 table td,
+    .win7 table {
+        border: 1px solid #d8d8e8;
+    }
+}).
+
+creo ShellverGuiConsole como un componente vue2 con nombre "ShellverGuiConsole" con plantilla {
+  <div class="ShellverGuiConsole win7">
+    <div>
+      <textarea class="" style="width:100%;resize:vertical;" v-model="plantilla_calo_interna" placeholder="Código de plantilla"></textarea>
+      <div v-if="esta_mostrando_componente_de_test">
+        <component v-bind:is="'ShellverGuiConsoleTesterItem' + uuid"></component>
+      </div>
+      <div v-else>
+        <div class="marquee" role="progressbar"></div>
+      </div>
+      <div v-if="error" style="background-color: red; color: white;">
+        <div>Tipo de error: {{ error.name }}</div>
+        <div>Mensaje de error: {{ error.message }}</div>
+        <div>Traza de error: {{ error.stack }}</div>
+      </div>
+    </div>
+  </div>
+} con lógica donde {
+  retorno {
+    propiedad props como {
+      uuid: {
+        propiedad type como String.
+        propiedad default como una función donde retorno un texto aleatorio de 20 caracteres.
+      },
+      plantilla: {
+        propiedad type como String.
+        propiedad default como una función donde retorno "".
+      }
+    }.
+    método data donde {
+      retorno {
+        error: undefined,
+        esta_mostrando_componente_de_test: false,
+        plantilla_calo_interna: un código en texto donde {retorno un código en html con { <div>
+  <table>
+    <tr>
+      <td>ID</td>
+      <td>Animal</td>
+      <td>Origen</td>
+      <td>Localización</td>
+      <td>Estado</td>
+      <td>Capital total</td>
+    </tr>
+    <tr>
+      <td>4624401N</td>
+      <td>Humano</td>
+      <td>Barcelona</td>
+      <td>Bonastre</td>
+      <td>Lamentable</td>
+      <td>0€</td>
+    </tr>
+    <tr>
+      <td>xxxxxxx1X</td>
+      <td>Humano</td>
+      <td>Igriega Taun</td>
+      <td>Equis Taunn</td>
+      <td>Pseee</td>
+      <td>algo hay €</td>
+    </tr>
+  </table>
+</div> }.
+        },
+        plantilla_js_interna: "",
+        plantilla_resultado_interno: "",
+        renderizar_dilator_id: undefined,
+        renderizar_dilator_milisegundos: 3 * 1000,
+        cerrar_error_dilator_id: undefined
+      }.
+    }.
+    propiedad methods como {
+      renderizar_con_dilacion: una función con () donde {
+        hago clearTimeout(this.renderizar_dilator_id).
+        asigno this.renderizar_dilator_id como setTimeout(una lambda donde {
+          hago this.compilar_componente_de_test().
+          hago this.$forceUpdate(true).
+        }, this.renderizar_dilator_milisegundos).
+      },
+      mostrar_error: una función asíncrona con (error) donde {
+        @POR-MEJORAR: este algoritmo no responde al uso común de mostrar_error. Hay que adaptar la función.
+        hago clearTimeout(this.cerrar_error_dilator_id).
+        asigno this.error como error.
+        asigno this.cerrar_error_dilator_id como setTimeout(una lambda donde {
+          asigno this.error como undefined.
+        }, this.renderizar_dilator_milisegundos).
+      },
+      establecer_plantilla: una función con (texto) donde {
+        asigno this.plantilla_calo_interna como texto.
+      },
+      compilar_componente_de_test: una función asíncrona con () donde {
+        creo codigo_calo como this.plantilla_calo_interna.
+        imprimo codigo_calo.
+        asigno this.plantilla_js_interna como Castelog_parser.parse(codigo_calo).
+        creo codigo_js como "(function(){" + this.plantilla_js_interna + "})()".
+        imprimo codigo_js.
+        asigno this.plantilla_resultado_interno como this.$window.eval(codigo_js).
+        hago Castelog.metodos.un_componente_vue2('ShellverGuiConsoleTesterItem' + this.uuid, this.plantilla_resultado_interno, una función donde retorno {}).
+        asigno this.esta_mostrando_componente_de_test como false.
+        hago this.$forceUpdate(true).
+        hago asíncronamente una espera de 1 segundos.
+        asigno this.esta_mostrando_componente_de_test como true.
+        hago this.$forceUpdate(true).
+      } en errores {
+        hago this.mostrar_error(error).
+      },
+      descompilar_componente_de_test: una función con () donde {
+        elimino propiedad vue.options.components['ShellverGuiConsoleTesterItem' + this.uuid].
+      }
+    }.
+    propiedad watch como {
+      plantilla_calo_interna: una función con (nuevo_valor) donde {
+        hago this.renderizar_con_dilacion().
+      }
+    }.
+    método mounted donde {
+      hago this.compilar_componente_de_test().
+    }.
+    método unmounted donde {
+      hago this.descompilar_componente_de_test().
+    }.
+  }.
+}.

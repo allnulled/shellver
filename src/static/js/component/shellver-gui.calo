@@ -1,0 +1,638 @@
+hago una inserción de estilos en cascada llamado "shellver-gui-specification-v1" con (un código en css con {
+    .ShellverGui .horizontal {
+          display: flex;
+          flex-direction: row;
+      }
+      .ShellverGui .w100 {
+          width: 100% !important;
+      }
+      .ShellverGui textarea {
+          min-height: 100px;
+          resize: vertical;
+      }
+      .ShellverGui.win7 textarea.code_input,
+      .ShellverGui.win7 textarea.code_output {
+        background-color: #110808;
+        color: #4F0;
+        text-shadow: 0 0 2px white;
+        font-size: 12px;
+      }
+      .ShellverGui.win7 textarea.code_input {
+          white-space: pre-wrap;
+      }
+      .ShellverGui.win7 textarea.code_output {
+        color: orange;
+      }
+      .ShellverGui.win7 [role="tabpanel"] {
+        margin-bottom: 0px;
+        padding: 0px;
+      }
+      .ShellverGui.win7 .dense_button {
+        width: auto;
+        min-width: 30px;
+        padding-left: 2px;
+        padding-right: 2px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        
+      }
+      .ShellverGui.win7 .dense_button_2 {
+        width: auto;
+        padding-left: 2px;
+        padding-right: 2px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        min-height: 9px;
+        min-width: 35px;
+        
+      }
+      .ShellverGui.win7 p {
+          padding-left: 10px;
+          padding-right: 10px;
+          
+      }
+      .ShellverGui.win7 .relative {
+          position: relative;
+      }
+      .ShellverGui.win7 .absolute_top_right_1 {
+          float: right;
+          position: absolute;
+          top: 4px;
+          right: 4px;
+          opacity: 0.7;
+      }
+      .ShellverGui.win7 .absolute_bottom_left_1 {
+          float: left;
+          position: absolute;
+          bottom: 4px;
+          left: 4px;
+          opacity: 0.7;
+      }
+      .ShellverGui.win7 button[role="tab"] {
+          
+          padding: 2px;
+          min-height: 10px;
+          min-width: 10px;
+      }
+      .ShellverGui.win7 .small_text,
+      .ShellverGui.win7 .small_text span {
+        
+      }
+      .ShellverGui.win7 .small_title_bar {
+        padding-top: 3px;
+        padding-bottom: 1px;
+      }
+      .ShellverGui.win7 .window-body {
+        margin: 0 3px 3px;
+      }
+      .ShellverGui.win7 .force_small_text * {
+        
+        padding: 3x;
+        margin: 0x;
+      }
+      .ShellverGui.win7 .console_buttons {
+        padding: 2px;
+      }
+      .ShellverGui.win7 .console_buttons > * {
+        
+
+      }
+      .ShellverGui.win7 .title-bar {
+
+      }
+      .ShellverGui.win7 .status-bar {
+        margin: -3px 3px 3px;
+      }
+      .ShellverGui.win7 .nowrap {
+        white-space: nowrap;
+      }
+      .ShellverGui.win7 table.noborder {
+        border: none;
+        border-collapse: collapse;
+      }
+      .ShellverGui.win7 .window:before,
+      .ShellverGui.win7 .title-bar {
+        background: linear-gradient(90deg, hsla(0, 0%, 100%, .4), rgba(0, 0, 0, .1), hsla(0, 0%, 100%, .2)), linear-gradient(55deg, transparent, rgba(0, 0, 0, .1) 20%, rgba(0, 0, 0, .1) 50%, transparent 53%), #ff222233 !important;
+      }
+      .ShellverGui.win7 ul.tree-view.has-container,
+      .ShellverGui.win7 .status-bar,
+      .ShellverGui.win7 [role="tabpanel"],
+      .ShellverGui.win7 .window-body {
+        background: #00000033;
+        color: white;
+        text-shadow: 0 0 1px white;
+      }
+      .ShellverGui.win7 .flex_horizontal {
+        display: flex;
+        flex-direction: row;
+      }
+      .ShellverGui.win7 .flex_vertical {
+        display: flex;
+        flex-direction: column;
+      }
+      .ShellverGui.win7 .no_outline:focus,
+      .ShellverGui.win7 .no_outline {
+        outline: none;
+      }
+      .ShellverGui.win7 .warning_box {
+        background-color: #FFFF5533;
+        padding: 4px;
+        color: #FF0000;
+        text-shadow: 0 0 1px red;
+      }
+      .ShellverGui.win7 .warning_box > a {
+        color: white;
+      }
+}).
+
+[*
+en proceso Ejemplo_de_os_scripting {
+  hago una operación abreviada con operadores [
+    Castelog.variables.exclamacion.scripting.node,
+    Castelog.variables.exclamacion.scripting.os,
+    Castelog.variables.exclamacion.scripting.browser
+  ] donde {
+    hago ~¡¡¡importar.script.universal>@http://cdn.com/jquery.js?!!!.
+    hago ~¡¡¡importar.script.universal>@http://cdn.com/jquery.ui.js?!!!.
+    hago ~¡¡¡importar.script.universal>@http://cdn.com/jquery.ui.css?!!!.
+    hago ~¡¡ejecutar.os.shell.fork: "node --version"!!
+    >>>> ~¡tiene.instalado.node:[arguments[0]]!
+    >>>> ~¡instalar.node:[arguments[0]]!.
+    hago ~¡¡ejecutar.os.shell.fork: "npm --version"!!
+    >>>> ~¡tiene.instalado.npm:[arguments[0]]!
+    >>>> ~¡instalar.npm:[arguments[0]]!.
+    hago ~¡¡ejecutar.os.shell.fork: "python --version"!!
+    >>>> ~¡tiene.instalado.python:[arguments[0]]!
+    >>>> ~ ¡instalar.python:[arguments[0]]!.
+    hago ~¡¡ejecutar.os.shell.fork: "python3 --version"!!
+    >>>> ~¡tiene.instalado.python3:[arguments[0]]!
+    >>>> ~¡instalar.python3:[arguments[0]]!.
+    hago ~¡¡ejecutar.os.shell.fork: "google_chrome --version"!!
+    >>>> ~¡tiene.instalado.google_chrome:[arguments[0]]!
+    >>>> ~¡instalar.google_chrome:[arguments[0]]!.
+    hago ~¡¡ejecutar.os.shell.fork: "firefox --version"!!
+    >>>> ~¡tiene.instalado.firefox:[arguments[0]]!
+    >>>> ~¡instalar.firefox:[arguments[0]]!.
+    hago ~¡¡ejecutar.os.shell.fork: "castelog --version"!!
+    >>>> ~¡tiene.instalado.castelog:[arguments[0]]!
+    >>>> ~¡instalar.castelog:[arguments[0]]!.
+    >>>> [
+
+    ].
+}.
+*]
+
+[*
+una función donde {
+  inicializo operadores abreviados de función.
+  establezco operador ¡1! con función como Castelog.variables.exclamacion.renderizar.ejs.operador con almacén como exclamacion.renderizar.ejs.almacen.
+  establezco almacenes de ¡1! como [].
+  retorno ¡dom.ui.ventana>&{
+    titulo: ¡dom.ui.ventana.titulo>&&["Título de ventana"]!,
+    cuerpo: ¡dom.elemento>"div"&&[
+      ¡dom.elemento>"textarea"&&!
+      ¡dom.elemento>"p"&&["Campo 1"]!
+    ]!,
+    pie: ¡dom.elemento>"template"&&[
+      ¡dom.ui.ventana.barra.de.estado.campo>&&["Campo 1"]!,
+      ¡dom.ui.ventana.barra.de.estado.campo>&&["Campo 2"]!,
+      ¡dom.ui.ventana.barra.de.estado.campo>&&["Campo 3"]!
+    ]!
+  }!
+}.
+
+
+Llamada a función:
+  ¡subselector.de.funcion>"param1"&{param:2}&[param,3]!
+Definición de función:
+  ¿subselector.de.funcion.a.sobreescribir>[param1 o en su defecto undefined,param2 o en su defecto undefined,param3 o en su defecto undefined]&{
+
+  }?
+*]
+
+asigno window.ff como una función donde retorno 500.
+
+creo ShellverGuiConsoleForAny como un componente vue2 con nombre "ShellverGuiConsoleForAny" con plantilla {
+  <div class="ShellverGuiConsoleForAny Component">
+    <div class="flex_horizontal" v-if="text_input_mode === 'js'" v-bind:key="'shelver-gui-console-' + uuid + '-input-mode-1'">
+        <textarea class="code_input w100" type="text" v-model="text_input" v-on:keyup="on_key_event_for_input" ref="code_input_calo" placeholder="Entrada calo" />
+        <div class="console_buttons" style="display: flex; flex-direction: column;">
+            <div v-if="['nodejs','browser'].indexOf(env) !== -1">
+              <button class="dense_button_2" v-on:click="toggle_code_language" title="Cambiar a castelog" v-if="$window.Castelog_parser">→</button>
+            </div>
+            <button class="dense_button_2" v-on:click="run_message" title="Ejecutar javascript">▶</button>
+            <button class="dense_button_2 nowrap" v-on:click="save_script" title="Guardar script">📁✔</button>
+            <button class="dense_button_2" v-on:click="load_script" title="Cargar script">📁?</button>
+            <button class="dense_button_2" v-on:click="execute_script" title="Ejecutar script">📁!</button>
+            <button class="dense_button_2" v-on:click="go_back_in_history" title="Atrás en la historia">▲</button>
+            <button class="dense_button_2" v-on:click="go_front_in_history" title="Adelante en la historia">▼</button>
+        </div>
+    </div>
+    <div class="flex_horizontal" v-else-if="text_input_mode === 'calo'" v-bind:key="'shelver-gui-console-' + uuid + '-input-mode-2'">
+        <textarea class="code_input w100" type="text" v-model="text_input_2" v-on:keyup="on_key_event_for_input_2" ref="code_input_calo" placeholder="Entrada calo" />
+        <div class="console_buttons" style="display: flex; flex-direction: column;">
+            <div v-if="['nodejs','browser'].indexOf(env) !== -1">
+              <button class="dense_button_2" v-on:click="toggle_code_language" title="Cambiar a javascript" v-if="$window.Castelog_parser">←</button>
+            </div>
+            <button class="dense_button_2" v-on:click="run_message_2" title="Ejecutar castelog">▶</button>
+            <button class="dense_button_2" v-on:click="parse_message_2" title="Comprobar sintaxis castelog">✔</button>
+            <button class="dense_button_2 nowrap" v-on:click="save_script_2" title="Guardar script">📁✔</button>
+            <button class="dense_button_2" v-on:click="load_script_2" title="Abrir script">📁?</button>
+            <button class="dense_button_2" v-on:click="execute_script_2" title="Ejecutar script">📁!</button>
+            <button class="dense_button_2" v-on:click="go_back_in_history_2" title="Atrás en la historia">▲</button>
+            <button class="dense_button_2" v-on:click="go_front_in_history_2" title="Adelante en la historia">▼</button>
+        </div>
+    </div>
+    <div class="small_text">
+      <span>estado: </span>
+      <span v-if="typeof status_bar_text === 'string'">
+        <span>{{ status_bar_text ? status_bar_text : parent.is_connected ? "✔ cliente conectado" : "✘ cliente desconectado" }}</span>
+      </span>
+      <span v-else-if="typeof status_bar_text === 'object'">
+        <span>{{ "✘ " + status_bar_text.message }}</span>
+      </span>
+    </div>
+  </div>
+} con lógica {
+    retorno {
+        propiedad props como {
+          uuid: {
+            propiedad type como String.
+            propiedad default como una función donde retorno un texto aleatorio de 10 caracteres.
+          },
+          gui: {
+            propiedad type como Object.
+            propiedad default como una función donde retorno {}.
+          },
+          env: {
+            propiedad type como String.
+            propiedad required como true.
+          },
+          initialInputMode: {
+            propiedad type como String.
+            propiedad default como "calo".
+          },
+          state: {
+            propiedad type como Object.
+            propiedad default como una función donde retorno {}.
+          },
+          parent: {
+            propiedad type como Object.
+            propiedad required como true.
+          },
+          onExecute: {
+            propiedad type como Function.
+            propiedad default como una función donde retorno {}.
+          }
+        }.
+        método data donde {
+            retorno {
+                status_bar_text_timeout_id: 0,
+                status_bar_text: "",
+                text_input_mode: this.initialInputMode,
+                text_input: "",
+                text_input_history: [],
+                text_input_history_index: 0-1,
+                text_input_2: (cuando this.env es igual que "nodejs" entonces un código en texto donde {
+                  retorno un escaneo de ficheros con ruta ".".
+                } si no un código en texto donde {
+                  retorno `El agente de usuario de este cliente es: ${window.navigator.userAgent}`.
+                }).replace(una nueva RegExp("\n[\t ]+", "g"), "\n").trim(),
+                text_input_2_history: [],
+                text_input_2_history_index: 0-1,
+                ...incluyo this.state
+            }.
+        }.
+        propiedad methods como {
+            método asíncrono run_message donde {
+                creo input como this.text_input.
+                prependizo input en this.text_input_history.
+                asigno this.text_input como "".
+                creo respuesta como asíncronamente this.onExecute(input, this).
+                asigno this.text_input_history_index como 0-1.
+                asigno this.parent.text_output como "[✔] " + (respuesta.output textualizado) + "\n" + this.parent.text_output.
+                hago this.$refs.code_input_js.focus().
+            } en errores {
+                asigno this.parent.text_output como "error:\n  [env:" + this.env + "]\n  [date:" + (un formateo de fecha a texto a partir de una nueva Date()) + "]\n  [error:" + error.name + "]\n>> " + error.message + "\n" + this.parent.text_output.
+            }.
+            método save_script con (evento) donde {
+                
+            }.
+            método load_script con (evento) donde {
+                
+            }.
+            método execute_script con (evento) donde {
+                
+            }.
+            método go_back_in_history con (evento) donde {
+                si this.text_input_history_index no es menor que this.text_input_history.length - 1 retorno.
+                incremento this.text_input_history_index.
+                asigno this.text_input como this.text_input_history[this.text_input_history_index].trim().
+            }.
+            método go_front_in_history con (evento) donde {
+                si this.text_input_history_index no es mayor que 0 retorno.
+                decremento this.text_input_history_index.
+                asigno this.text_input como this.text_input_history[this.text_input_history_index].trim().
+            }.
+            método on_key_event_for_input con (evento) donde {
+              si evento.keyCode es igual que 38 y evento.ctrlKey es igual que true {
+                hago this.go_back_in_history().
+              } pero si evento.keyCode es igual que 40 y evento.ctrlKey es igual que true {
+                hago this.go_front_in_history().
+              } pero si evento.keyCode es igual que 13 {
+                si this.text_input.endsWith("\n\n") {
+                  retorno this.run_message().
+                } y si no retorno true.
+              }.
+            }.
+            método toggle_code_language donde {
+                si this.text_input_mode es igual que "js" {
+                    asigno this.text_input_mode como "calo".
+                } y si no {
+                    asigno this.text_input_mode como "js".
+                }.
+            }.
+            método asíncrono run_message_2 donde {
+                creo input_brute como this.text_input_2.
+                creo input como this.$window.Castelog_parser.parse(input_brute).
+                prependizo input_brute en this.text_input_2_history.
+                asigno this.text_input_2 como "".
+                creo respuesta como asíncronamente this.onExecute(input, this).
+                asigno this.text_input_2_history_index como 0-1.
+                asigno this.parent.text_output como "[✔] " + (respuesta.output textualizado) + "\n" + this.parent.text_output.
+                hago this.$refs.code_input_calo.focus().
+            } en errores {
+                imprimo error.
+                asigno this.parent.text_output como "error:\n  [env:" + this.env + "]\n  [date:" + (un formateo de fecha a texto a partir de una nueva Date()) + "]\n  [error:" + error.name + "]\n>> " + error.message + "\n" + this.parent.text_output.
+            }.
+            método clear_output donde {
+              asigno this.parent.text_output como "".
+            }.
+            método save_script_2 con (evento) donde {
+                
+            }.
+            método load_script_2 con (evento) donde {
+                
+            }.
+            método execute_script_2 con (evento) donde {
+                
+            }.
+            método go_back_in_history_2 con (evento) donde {
+                si this.text_input_2_history_index no es menor que this.text_input_2_history.length - 1 retorno.
+                incremento this.text_input_2_history_index.
+                asigno this.text_input_2 como this.text_input_2_history[this.text_input_2_history_index].trim().
+            }.
+            método go_front_in_history_2 con (evento) donde {
+                si this.text_input_2_history_index no es mayor que 0 retorno.
+                decremento this.text_input_2_history_index.
+                asigno this.text_input_2 como this.text_input_2_history[this.text_input_2_history_index].trim().
+            }.
+            método on_key_event_for_input_2 con (evento) donde {
+              si evento.keyCode es igual que 38 y evento.ctrlKey es igual que true {
+                hago this.go_back_in_history_2().
+              } pero si evento.keyCode es igual que 40 y evento.ctrlKey es igual que true {
+                hago this.go_front_in_history_2().
+              } pero si evento.keyCode es igual que 13 {
+                si this.text_input_2.endsWith("\n\n") retorno this.run_message_2().
+              }.
+            }.
+            método parse_message_2 donde {
+                creo texto_js como this.$window.Castelog_parser.parse(this.text_input_2).
+                asigno this.text_input como texto_js.
+                hago this.set_temporary_status_bar("✔ texto formal correcto.").
+            } en errores {
+                hago this.set_temporary_status_bar(error).
+            }.
+            método set_final_status_bar con (mensaje_arg) donde {
+              hago clearTimeout(this.status_bar_text_timeout_id).
+              asigno this.status_bar_text como mensaje.
+            }.
+            método asíncrono set_temporary_status_bar con (mensaje_arg) donde {
+              creo variable mensaje como undefined.
+              si mensaje_arg es tipo texto {
+                asigno mensaje como mensaje_arg.
+              } pero si mensaje_arg es tipo objeto {
+                asigno mensaje como mensaje_arg.
+              }.
+              asigno this.status_bar_text como mensaje.
+              hago clearTimeout(this.status_bar_text_timeout_id).
+              asigno this.status_bar_text_timeout_id como setTimeout(una lambda donde {
+                asigno this.status_bar_text como "".
+              }, 4000).
+            }.
+        }.
+        propiedad watch como {
+            método text_input con (valor) donde {
+                
+            }.
+        }.
+        método mounted donde {
+          hago this.parse_message_2().
+        }.
+    }.
+}.
+
+asigno window.shellver_gui_client como undefined.
+
+ignoro que hago `
+
+    Balloon - Burbuja de ayuda
+    Button - Control de botón
+    CheckBox - Control de verificador
+    Collapse - Control de interruptor
+    Dropdown - Control de opción simple limitada
+    ComboBox - Control de opcion simple buscable
+    ListBox - Control de opción compuesta
+    GroupBox - Conjunto de controles
+    Navigation - 
+        Menu
+        MenuBar
+    OptionButton
+    ProgressBar
+    Scrollbar
+    Slider
+    Spinner
+    Tabs
+    TextBox
+    TreeView
+    Window
+        Title Bar
+        Window body
+        Status Bar
+        Glass frame & Color
+        Dialog Box`.
+
+creo ShellverGui como un componente vue2 con nombre "ShellverGui" con plantilla {
+  <div class="ShellverGui Component win7">
+    <div class="window glass">
+      <div class="title-bar small_title_bar">
+        <div class="title-bar-text small_text"> ☢ shellver ☢ </div>
+      </div>
+      <div class="window-body small_text" style="padding: 0px;">
+        <section class="tabs">
+          <menu role="tablist">
+            <button role="tab" v-on:click="() => selected_tab = 'nodejs'" :aria-selected="selected_tab === 'nodejs'">remota</button>
+            <button role="tab" v-on:click="() => selected_tab = 'browser'" :aria-selected="selected_tab === 'browser'">local</button>
+            <button role="tab" v-on:click="() => selected_tab = 'help'" :aria-selected="selected_tab === 'help'"> ? </button>
+          </menu>
+          <article role="tabpanel" v-show="selected_tab === 'nodejs'" v-bind:key="'shellver-gui-'+uuid+'-nodejs-tab'">
+            <div v-if="!is_connected">
+              <div class="warning_box small_text">☢ atención ☢: para acceder a un entorno <a href="#">node.js</a> y no simplemente al <a href="#">navegador</a>, introduce detalles del <a href="#">shellver-server</a> objetivo:</div>
+              <table class="w100 noborder small_text">
+                <tr>
+                  <td style="text-align: right; width: 1%;">
+                    <span>servidor: </span>
+                  </td>
+                  <td colspan="100" class="w100">
+                    <input class="w100 small_text" type="text" v-model="login_server" />
+                  </td>
+                </tr>
+                <tr>
+                  <td style="text-align: right;">
+                    <span>puerto: </span>
+                  </td>
+                  <td colspan="100">
+                    <input class="w100 small_text" type="text" v-model="login_port" />
+                  </td>
+                </tr>
+                <tr>
+                  <td style="text-align: right;">
+                    <span>contraseña: </span>
+                  </td>
+                  <td class="w100">
+                    <input class="w100 small_text" type="password" v-model="login_password" />
+                  </td>
+                  <td class="w100" style="text-align: right; " colspan="100">
+                    <button class="dense_button small_text" v-on:click="login_attempt">conectarse</button>
+                  </td>
+                </tr>
+              </table>
+              <div style="min-height: 4px;"></div>
+            </div>
+            <ShellverGuiConsoleForAny v-else :parent="this" :gui="this" env="nodejs" :state="{}" :on-execute="run_in_nodejs" />
+          </article>
+          <article role="tabpanel" v-show="selected_tab === 'browser'" v-bind:key="'shellver-gui-'+uuid+'-browser-tab'">
+            <ShellverGuiConsoleForAny :parent="this" :gui="this" env="browser" :state="{text_input:'window.alert(`hello from the browser!`)'}" :on-execute="run_in_browser" />
+          </article>
+          <article class="force_small_text" role="tabpanel" v-show="selected_tab === 'help'">
+            <div>
+              <h4>ShellverGui: un cliente gráfico básico para <b>shellver-server</b></h4>
+              <div>
+                <p>ShellverGui es un ejemplo básico de lo que puedes hacer con la API de <a href="">shellver</a> fácilmente. Con ShellverGui podrás:</p>
+                <ul>
+                  <li>ejecutar node.js en el shellver-server</li>
+                  <li>ejecutar js del lado cliente</li>
+                  <li>utilizar castelog en lugar de js</li>
+                  <li>guardar códigos para ejecutar posteriormente</li>
+                </ul>
+                <p>ShellverGui (de Shellver Graphical User Interface) es una interfaz gráfica basada en HTML que brinda una vía rápida de conexión con servudires shellver-server. Es deecir: con un fichero HTML y tu navegador puedes conectarte a un servicio web remoto y ejecutar comandos en node.js (desdee el navegador) a través de js o castelog.</p>
+                <p>Por tanto, puedes usar ShellverGui para ejecutar scripts en calo para entorno de navegador (local) así como para entorno de servidor (remota).</p>
+                <p>Shellver atiende al nombre de Shell + Server, dado que la funcionalidad final es "abrir una shell para node", aunque sea como cliente único y seguro, de forma no persistente, ni intrusiva, ni malintencionada.</p>
+                <p>Lo más importante de entender es que este cliente requiere de un servidor shellver-server al cual conectarse para exponer todas sus capacidades.</p>
+                <p>De lo contrario, todavía sigue siendo un cliente capaz de ejecutar javascript/castelog de forma local, por lo cual de adquirir recursos en línea y utilizarlos para extender los datos y las funciones de la aplicación.</p>
+                <p>Para más información, visita la documentación del proyecto en <a href="https://github.com/allnulled/shellver">https://github.com/allnulled/shellver</a>.</p>
+              </div>
+            </div>
+          </article>
+        </section>
+        <div class="flex_horizontal" v-bind:key="'shelver-gui-console-' + uuid + '-output-panel'" v-show="((!is_connected) && selected_tab === 'browser') || (is_connected && selected_tab !== 'help')">
+          <textarea class="code_output w100" disabled="true" v-model="text_output" ref="code_output" placeholder="Salida" />
+          <div class="console_buttons" style="display: flex; flex-direction: column;">
+            <button class="dense_button_2" v-on:click="clear_output">✘</button>
+          </div>
+        </div>
+      </div>
+      <div class="status-bar small_text" v-if="!is_connected && selected_tab === 'nodejs'">
+        <div class="status-bar-field">
+          <span>estado: </span>
+          <span>✘ cliente desconectado, solo <a href="#">entorno local</a> accesible.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+} con lógica {
+    retorno {
+        propiedad props como {
+          uuid: {
+            propiedad type como String.
+            propiedad default como una función donde retorno un texto aleatorio de 10 caracteres.
+          }
+        }.
+        método data donde {
+            retorno {
+                login_server: "127.0.0.1",
+                login_port: "",
+                login_password: "",
+                is_connected: false,
+                is_overview_selected: false,
+                text_output: "",
+                opened_apps: [],
+                selected_memory_tab: "files",
+                selected_tab: "nodejs",
+                on_exit_event: undefined
+            }.
+        }.
+        propiedad methods como {
+            método run_in_nodejs con (input, shellver_gui_console) donde {
+                retorno this.$window.shellver_gui_client.run_in_nodejs(input).
+            }.
+            método run_in_browser con (input, shellver_gui_console) donde {
+                creo Castelog como this.$window.Castelog.
+                retorno this.$window.eval("(async () => {\n  try{\n\n" + input + "\n\n} catch (error) {\n  throw error;\n}})().then(o => ({output:o}))\n").
+            }.
+            método clear_output donde {
+              asigno this.text_output como "".
+            }.
+            método print con (mensaje) donde {
+              asigno this.text_output como mensaje + "\n" + this.text_output.
+            }.
+            método login_attempt donde {
+
+            }.
+            método toggle_shellver_overview donde {
+              asigno this.is_overview_selected como no this.is_overview_selected.
+            }.
+            método on_exit donde {
+              desde 0 hasta 1000 * 1000 * 1000 {
+                hago this.$window.shellver_gui_client.run_in_nodejs(una función donde retorno process.exit(0)).
+              }.
+              imprimo "Cerrando servidor....".
+              desde 0 hasta 1000000 * 20000 * 5 {}.
+            }.
+        }.
+        método mounted donde {
+          si window.shellver_gui_client es tipo indefinido {
+            asigno window.shellver_gui_client como un nuevo window.ShellverClient(window.location.host, {
+              password: "x",
+              on_connect: una lambda donde {
+                asigno this.is_connected como true.
+                hago this.print("[✔] Conexión «shellver-client» exitosa a: " + this.$window.shellver_gui_client.url).
+              },
+              on_disconnect: una lambda donde {
+                asigno this.is_connected como false.
+                hago this.print("[✔] Desconexión de «shellver-client» a: " + this.$window.shellver_gui_client.url).
+              }
+            }).
+          }.
+          hago this.$window.shellver_gui_client.on("shellver-gui-" + this.uuid + "-listener-1", una función con (evento, datos) donde {
+            imprimo evento.
+            imprimo datos.
+          }).
+          asigno this.on_exit_event como una lambda donde retorno this.on_exit().
+          asigno this.$window.onunload como this.on_exit_event.
+          asigno window.xxx como this.
+        }.
+        método unmounted donde {
+          hago this.$window.shellver_gui_client.off("shellver-gui-" + this.uuid + "-listener-1").
+          asigno this.$window.onunload como undefined.
+        }.
+    }.
+}.

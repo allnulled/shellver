@@ -1,0 +1,140 @@
+Compilable con
+  ./js/calo.calo
+  ./js/component/shellver-gui.calo
+  ./js/component/shellver-gui-console.calo
+Ejecutable como documento HTML5
+    con autor allnulled
+    con nombre index
+    con versión 1
+<head>
+    <title>Shellver</title>
+    <meta charset="utf8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="/js/calo.js"></script>
+    <script src="/js/socket.io-client.js"></script>
+    <script src="/js/shellver-client.js"></script>
+    <script src="/js/castelog.js"></script>
+    <script src="/js/component/shellver-gui.js"></script>
+    <script src="/js/component/shellver-gui-console.js"></script>
+</head>
+<body>
+  <style>
+    .intersitial_1 {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: white;
+      cursor: pointer;
+    }
+    .intersitial_1 .el_1 {
+      display: table;
+      width: 100%;
+      height: 100%;
+    }
+    .intersitial_1 .el_1 .el_2 {
+      display: table-cell;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      vertical-align: middle;
+    }
+    .intersitial_1 .el_1 .el_2 .el_3 {
+      display: block;
+      font-size:20px;
+      text-shadow: 0 0 2px black;
+      font-weight: bold;
+    }
+    .intersitial_1 .el_1 .el_2 .el_4 {
+      display: block;
+      font-size:11px;
+      color: #666;
+      text-shadow: 0 0 0px white;
+      
+    }
+      html {
+        background:
+              radial-gradient(100% 100% at 100% 100%, #0000 46%,#0c1325 47% 53%,#0000 54%) 32px 32px,
+              radial-gradient(100% 100% at 0 0, #0000 46%,#0c1325 47% 53%,#0000 54%) 32px 32px,
+              radial-gradient(100% 100%, #0000 22%, #0c1325 23% 29%, #0000 30% 34%, #0c1325 35% 41%, #0000 42%)
+              #0f2323;
+        background-size: 64px 64px;
+      }
+  </style>
+  <div id="app"></div>
+  <div class="intersitial_1" onclick="this.remove()">
+    <div class="el_1">
+      <div class="el_2">
+        <div class="el_3">☣ shellver ☣</div>
+        <div class="el_4">
+          <span>apps completas entre</span>
+          <br/>
+          <span>node.js y navegador</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>.
+
+hago window.addEventListener("body", una función donde {
+  creo intersitial_1_matches como una selección de elementos del dom a partir de ".intersitial_1".
+  creo intersitial_1 como intersitial_1_matches[0].
+  imprimo intersitial_1.
+}).
+
+creo PageForShellverGui como un componente vue2 con nombre "PageForShellverGui" con plantilla {
+  <div class="PageForShellverGui Component">
+    <ShellverGuiConsole />
+    <ShellverGui />
+  </div>
+} con estilos {
+    html {}
+    body {}
+    .Component {}
+    .App {}
+} con lógica {
+  retorno {
+    método data donde {
+      retorno {
+        
+      }.
+    }.
+    propiedad methods como {}.
+    propiedad watch como {}.
+    método beforeMount donde {}.
+    método mounted donde {}.
+  }.
+}.
+
+creo App como una aplicación vue2 con nombre "App" con rutas [{
+    propiedad path como "/".
+    propiedad name como "Home".
+    propiedad component como PageForShellverGui.
+    propiedad props como {}.
+}] con traducciones {
+    propiedad es como {}.
+    propiedad en como {}.
+    propiedad ca como {}.
+} con plantilla {
+  <div class="App Component Castelog-app">
+    <router-view></router-view>
+  </div>
+} con estilos {
+    html {}
+    body {}
+    .Component {}
+    .App {}
+} con lógica {
+  retorno {
+    método data donde {
+      retorno {
+        
+      }.
+    }.
+    propiedad methods como {}.
+    propiedad watch como {}.
+    método beforeMount donde {}.
+    método mounted donde {}.
+  }.
+} montada en "#app".

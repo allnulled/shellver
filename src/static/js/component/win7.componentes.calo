@@ -1,0 +1,522 @@
+creo LayoutVertical como un componente vue2 con nombre "LayoutVertical" con plantilla {
+    <div class="LayoutVertical Component"></div>
+} con lógica donde {
+    retorno {
+        propiedad props como {
+
+        }.
+        método data donde {
+            retorno {}.
+        }.
+        propiedad watch como {
+
+        }.
+        propiedad methods como {
+
+        }.
+    }.
+}.
+creo LayoutHorizontal como un componente vue2 con nombre "LayoutHorizontal" con plantilla {
+    <div class="LayoutHorizontal Component"></div>
+} con lógica donde {
+    retorno {
+        propiedad props como {
+
+        }.
+        método data donde {
+            retorno {}.
+        }.
+        propiedad watch como {
+
+        }.
+        propiedad methods como {
+
+        }.
+    }.
+}.
+creo Formulario como un componente vue2 con nombre "Formulario" con plantilla {
+    <div class="Formulario Component"></div>
+} con lógica donde {
+    retorno {
+        propiedad props como {
+
+        }.
+        método data donde {
+            retorno {}.
+        }.
+        propiedad watch como {
+
+        }.
+        propiedad methods como {
+
+        }.
+    }.
+}.
+creo AyudaEmergente como un componente vue2 con nombre "AyudaEmergente" con plantilla {
+    <div class="AyudaEmergente Component"></div>
+} con lógica donde {
+    retorno {
+        propiedad props como {
+
+        }.
+        método data donde {
+            retorno {}.
+        }.
+        propiedad watch como {
+
+        }.
+        propiedad methods como {
+
+        }.
+    }.
+}.
+creo Expandible como un componente vue2 con nombre "Expandible" con plantilla {
+    <div class="Expandible Component"></div>
+} con lógica donde {
+    retorno {
+        propiedad props como {
+
+        }.
+        método data donde {
+            retorno {}.
+        }.
+        propiedad watch como {
+
+        }.
+        propiedad methods como {
+
+        }.
+    }.
+}.
+creo MenuExpandibleFijo como un componente vue2 con nombre "MenuExpandibleFijo" con plantilla {
+    <div class="MenuExpandibleFijo Component"></div>
+} con lógica donde {
+    retorno {
+        propiedad props como {
+
+        }.
+        método data donde {
+            retorno {}.
+        }.
+        propiedad watch como {
+
+        }.
+        propiedad methods como {
+
+        }.
+    }.
+}.
+creo BarraFija como un componente vue2 con nombre "BarraFija" con plantilla {
+    <div class="BarraFija Component"></div>
+} con lógica donde {
+    retorno {
+        propiedad props como {
+
+        }.
+        método data donde {
+            retorno {}.
+        }.
+        propiedad watch como {
+
+        }.
+        propiedad methods como {
+
+        }.
+    }.
+}.
+creo BarraDeProgreso como un componente vue2 con nombre "BarraDeProgreso" con plantilla {
+    <div class="BarraDeProgreso Component"></div>
+} con lógica donde {
+    retorno {
+        propiedad props como {
+
+        }.
+        método data donde {
+            retorno {}.
+        }.
+        propiedad watch como {
+
+        }.
+        propiedad methods como {
+
+        }.
+    }.
+}.
+creo Cargador como un componente vue2 con nombre "Cargador" con plantilla {
+    <div class="Cargador Component"></div>
+} con lógica donde {
+    retorno {
+        propiedad props como {
+
+        }.
+        método data donde {
+            retorno {}.
+        }.
+        propiedad watch como {
+
+        }.
+        propiedad methods como {
+
+        }.
+    }.
+}.
+creo Pestanyas como un componente vue2 con nombre "Pestanyas" con plantilla {
+    <div class="Pestanyas Component"></div>
+} con lógica donde {
+    retorno {
+        propiedad props como {
+
+        }.
+        método data donde {
+            retorno {}.
+        }.
+        propiedad watch como {
+
+        }.
+        propiedad methods como {
+
+        }.
+    }.
+}.
+creo Ventana como un componente vue2 con nombre "Ventana" con plantilla {
+    <div class="Ventana Component"></div>
+} con lógica donde {
+    retorno {
+        propiedad props como {
+
+        }.
+        método data donde {
+            retorno {}.
+        }.
+        propiedad watch como {
+
+        }.
+        propiedad methods como {
+
+        }.
+    }.
+}.
+creo DialogoDeVentana como un componente vue2 con nombre "DialogoDeVentana" con plantilla {
+    <div class="DialogoDeVentana Component"></div>
+} con lógica donde {
+    retorno {
+        propiedad props como {
+
+        }.
+        método data donde {
+            retorno {}.
+        }.
+        propiedad watch como {
+
+        }.
+        propiedad methods como {
+
+        }.
+    }.
+}.
+creo ControlDeBoton como un componente vue2 con nombre "ControlDeBoton" con plantilla {
+    <div class="ControlDeBoton Component"></div>
+} con lógica donde {
+    retorno {
+        propiedad props como {
+
+        }.
+        método data donde {
+            retorno {}.
+        }.
+        propiedad watch como {
+
+        }.
+        propiedad methods como {
+
+        }.
+    }.
+}.
+creo ControlDeComprobador como un componente vue2 con nombre "ControlDeComprobador" con plantilla {
+    <div class="ControlDeComprobador Component"></div>
+} con lógica donde {
+    retorno {
+        propiedad props como {
+
+        }.
+        método data donde {
+            retorno {}.
+        }.
+        propiedad watch como {
+
+        }.
+        propiedad methods como {
+
+        }.
+    }.
+}.
+creo ControlDeTextoSimple como un componente vue2 con nombre "ControlDeTextoSimple" con plantilla {
+    <div class="ControlDeTextoSimple Component"></div>
+} con lógica donde {
+    retorno {
+        propiedad props como {
+
+        }.
+        método data donde {
+            retorno {}.
+        }.
+        propiedad watch como {
+
+        }.
+        propiedad methods como {
+
+        }.
+    }.
+}.
+creo ControlDeTextoSecreto como un componente vue2 con nombre "ControlDeTextoSecreto" con plantilla {
+    <div class="ControlDeTextoSecreto Component"></div>
+} con lógica donde {
+    retorno {
+        propiedad props como {
+
+        }.
+        método data donde {
+            retorno {}.
+        }.
+        propiedad watch como {
+
+        }.
+        propiedad methods como {
+
+        }.
+    }.
+}.
+creo ControlDeTextoConSelector como un componente vue2 con nombre "ControlDeTextoConSelector" con plantilla {
+    <div class="ControlDeTextoConSelector Component"></div>
+} con lógica donde {
+    retorno {
+        propiedad props como {
+
+        }.
+        método data donde {
+            retorno {}.
+        }.
+        propiedad watch como {
+
+        }.
+        propiedad methods como {
+
+        }.
+    }.
+}.
+creo ControlDeSelectorExpandible como un componente vue2 con nombre "ControlDeSelectorExpandible" con plantilla {
+    <div class="ControlDeSelectorExpandible Component"></div>
+} con lógica donde {
+    retorno {
+        propiedad props como {
+
+        }.
+        método data donde {
+            retorno {}.
+        }.
+        propiedad watch como {
+
+        }.
+        propiedad methods como {
+
+        }.
+    }.
+}.
+creo ControlDeSelectorPorBotonEnmarcado como un componente vue2 con nombre "ControlDeSelectorPorBotonEnmarcado" con plantilla {
+    <div class="ControlDeSelectorPorBotonEnmarcado Component"></div>
+} con lógica donde {
+    retorno {
+        propiedad props como {
+
+        }.
+        método data donde {
+            retorno {}.
+        }.
+        propiedad watch como {
+
+        }.
+        propiedad methods como {
+
+        }.
+    }.
+}.
+creo ControlDeSelectorEnmarcado como un componente vue2 con nombre "ControlDeSelectorEnmarcado" con plantilla {
+    <div class="ControlDeSelectorEnmarcado Component"></div>
+} con lógica donde {
+    retorno {
+        propiedad props como {
+
+        }.
+        método data donde {
+            retorno {}.
+        }.
+        propiedad watch como {
+
+        }.
+        propiedad methods como {
+
+        }.
+    }.
+}.
+creo ControlDeSelectorPorBoton como un componente vue2 con nombre "ControlDeSelectorPorBoton" con plantilla {
+    <div class="ControlDeSelectorPorBoton Component"></div>
+} con lógica donde {
+    retorno {
+        propiedad props como {
+
+        }.
+        método data donde {
+            retorno {}.
+        }.
+        propiedad watch como {
+
+        }.
+        propiedad methods como {
+
+        }.
+    }.
+}.
+creo ControlDeIntervaloLineal como un componente vue2 con nombre "ControlDeIntervaloLineal" con plantilla {
+    <div class="ControlDeIntervaloLineal Component"></div>
+} con lógica donde {
+    retorno {
+        propiedad props como {
+
+        }.
+        método data donde {
+            retorno {}.
+        }.
+        propiedad watch como {
+
+        }.
+        propiedad methods como {
+
+        }.
+    }.
+}.
+creo ControlDeTexto como un componente vue2 con nombre "ControlDeTexto" con plantilla {
+    <div class="ControlDeTexto Component"></div>
+} con lógica donde {
+    retorno {
+        propiedad props como {
+
+        }.
+        método data donde {
+            retorno {}.
+        }.
+        propiedad watch como {
+
+        }.
+        propiedad methods como {
+
+        }.
+    }.
+}.
+creo ControlDeTextoMultilinea como un componente vue2 con nombre "ControlDeTextoMultilinea" con plantilla {
+    <div class="ControlDeTextoMultilinea Component"></div>
+} con lógica donde {
+    retorno {
+        propiedad props como {
+
+        }.
+        método data donde {
+            retorno {}.
+        }.
+        propiedad watch como {
+
+        }.
+        propiedad methods como {
+
+        }.
+    }.
+}.
+creo ControlDeArbol como un componente vue2 con nombre "ControlDeArbol" con plantilla {
+    <div class="ControlDeArbol Component"></div>
+} con lógica donde {
+    retorno {
+        propiedad props como {
+
+        }.
+        método data donde {
+            retorno {}.
+        }.
+        propiedad watch como {
+
+        }.
+        propiedad methods como {
+
+        }.
+    }.
+}.
+creo ControlDeTabla como un componente vue2 con nombre "ControlDeTabla" con plantilla {
+    <div class="ControlDeTabla Component"></div>
+} con lógica donde {
+    retorno {
+        propiedad props como {
+
+        }.
+        método data donde {
+            retorno {}.
+        }.
+        propiedad watch como {
+
+        }.
+        propiedad methods como {
+
+        }.
+    }.
+}.
+creo ControlDeNumero como un componente vue2 con nombre "ControlDeNumero" con plantilla {
+    <div class="ControlDeNumero Component"></div>
+} con lógica donde {
+    retorno {
+        propiedad props como {
+
+        }.
+        método data donde {
+            retorno {}.
+        }.
+        propiedad watch como {
+
+        }.
+        propiedad methods como {
+
+        }.
+    }.
+}.
+creo ControlDeFecha como un componente vue2 con nombre "ControlDeFecha" con plantilla {
+    <div class="ControlDeFecha Component"></div>
+} con lógica donde {
+    retorno {
+        propiedad props como {
+
+        }.
+        método data donde {
+            retorno {}.
+        }.
+        propiedad watch como {
+
+        }.
+        propiedad methods como {
+
+        }.
+    }.
+}.
+creo ControlDeDia como un componente vue2 con nombre "ControlDeDia" con plantilla {
+    <div class="ControlDeDia Component"></div>
+} con lógica donde {
+    retorno {
+        propiedad props como {
+
+        }.
+        método data donde {
+            retorno {}.
+        }.
+        propiedad watch como {
+
+        }.
+        propiedad methods como {
+
+        }.
+    }.
+}.
