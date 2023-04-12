@@ -1,7 +1,6 @@
 Compilable con
   ./js/calo.calo
   ./js/component/shellver-gui.calo
-  ./js/component/shellver-gui-console.calo
 Ejecutable como documento HTML5
     con autor allnulled
     con nombre index
@@ -15,7 +14,6 @@ Ejecutable como documento HTML5
     <script src="/js/shellver-client.js"></script>
     <script src="/js/castelog.js"></script>
     <script src="/js/component/shellver-gui.js"></script>
-    <script src="/js/component/shellver-gui-console.js"></script>
 </head>
 <body>
   <style>
@@ -55,10 +53,10 @@ Ejecutable como documento HTML5
     }
       html {
         background:
-              radial-gradient(100% 100% at 100% 100%, #0000 46%,#0c1325 47% 53%,#0000 54%) 32px 32px,
-              radial-gradient(100% 100% at 0 0, #0000 46%,#0c1325 47% 53%,#0000 54%) 32px 32px,
-              radial-gradient(100% 100%, #0000 22%, #0c1325 23% 29%, #0000 30% 34%, #0c1325 35% 41%, #0000 42%)
-              #0f2323;
+          radial-gradient(100% 100% at 100% 100%, #0000 46%,#0c1325 47% 53%,#0000 54%) 32px 32px,
+          radial-gradient(100% 100% at 0 0, #0000 46%,#0c1325 47% 53%,#0000 54%) 32px 32px,
+          radial-gradient(100% 100%, #0000 22%, #0c1325 23% 29%, #0000 30% 34%, #0c1325 35% 41%, #0000 42%)
+          #0f2323;
         background-size: 64px 64px;
       }
   </style>
@@ -85,7 +83,6 @@ hago window.addEventListener("body", una función donde {
 
 creo PageForShellverGui como un componente vue2 con nombre "PageForShellverGui" con plantilla {
   <div class="PageForShellverGui Component">
-    <ShellverGuiConsole />
     <ShellverGui />
   </div>
 } con estilos {

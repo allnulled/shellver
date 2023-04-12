@@ -146,10 +146,13 @@ class ShellverServer {
         const command_for_gchrome = ["google-chrome", ["--app=" + target_url]];
         const command_for_start = ["start", [target_url]];
         const browser_attempt_1 = child_process.spawn(...command_for_gchrome);
+        browser_attempt_1.on("exit", () => process.exit(0));
         browser_attempt_1.on("error", () => {
             const browser_attempt_2 = child_process.spawn(...command_for_firefox);
+            browser_attempt_2.on("exit", () => process.exit(0));
             browser_attempt_2.on("error", () => {
                 const browser_attempt_3 = child_process.spawn(...command_for_gchrome);
+                browser_attempt_3.on("exit", () => process.exit(0));
                 browser_attempt_3.on("error", () => {
                     console.log("[·] Caution: to open the user interface automatically, install for command line: google-chrome or firefox.")
                 });

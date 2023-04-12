@@ -118,9 +118,9 @@ hago una inserción de estilos en cascada llamado "shellver-gui-specification-v1
         border: none;
         border-collapse: collapse;
       }
-      .ShellverGui.win7 .window:before,
-      .ShellverGui.win7 .title-bar {
-        background: linear-gradient(90deg, hsla(0, 0%, 100%, .4), rgba(0, 0, 0, .1), hsla(0, 0%, 100%, .2)), linear-gradient(55deg, transparent, rgba(0, 0, 0, .1) 20%, rgba(0, 0, 0, .1) 50%, transparent 53%), #ff222233 !important;
+      .ShellverGui.win7 .window::before,
+      .ShellverGui.win7 .window > .title-bar {
+        background-color: #ff222233;
       }
       .ShellverGui.win7 ul.tree-view.has-container,
       .ShellverGui.win7 .status-bar,
@@ -152,71 +152,6 @@ hago una inserción de estilos en cascada llamado "shellver-gui-specification-v1
         color: white;
       }
 }).
-
-[*
-en proceso Ejemplo_de_os_scripting {
-  hago una operación abreviada con operadores [
-    Castelog.variables.exclamacion.scripting.node,
-    Castelog.variables.exclamacion.scripting.os,
-    Castelog.variables.exclamacion.scripting.browser
-  ] donde {
-    hago ~¡¡¡importar.script.universal>@http://cdn.com/jquery.js?!!!.
-    hago ~¡¡¡importar.script.universal>@http://cdn.com/jquery.ui.js?!!!.
-    hago ~¡¡¡importar.script.universal>@http://cdn.com/jquery.ui.css?!!!.
-    hago ~¡¡ejecutar.os.shell.fork: "node --version"!!
-    >>>> ~¡tiene.instalado.node:[arguments[0]]!
-    >>>> ~¡instalar.node:[arguments[0]]!.
-    hago ~¡¡ejecutar.os.shell.fork: "npm --version"!!
-    >>>> ~¡tiene.instalado.npm:[arguments[0]]!
-    >>>> ~¡instalar.npm:[arguments[0]]!.
-    hago ~¡¡ejecutar.os.shell.fork: "python --version"!!
-    >>>> ~¡tiene.instalado.python:[arguments[0]]!
-    >>>> ~ ¡instalar.python:[arguments[0]]!.
-    hago ~¡¡ejecutar.os.shell.fork: "python3 --version"!!
-    >>>> ~¡tiene.instalado.python3:[arguments[0]]!
-    >>>> ~¡instalar.python3:[arguments[0]]!.
-    hago ~¡¡ejecutar.os.shell.fork: "google_chrome --version"!!
-    >>>> ~¡tiene.instalado.google_chrome:[arguments[0]]!
-    >>>> ~¡instalar.google_chrome:[arguments[0]]!.
-    hago ~¡¡ejecutar.os.shell.fork: "firefox --version"!!
-    >>>> ~¡tiene.instalado.firefox:[arguments[0]]!
-    >>>> ~¡instalar.firefox:[arguments[0]]!.
-    hago ~¡¡ejecutar.os.shell.fork: "castelog --version"!!
-    >>>> ~¡tiene.instalado.castelog:[arguments[0]]!
-    >>>> ~¡instalar.castelog:[arguments[0]]!.
-    >>>> [
-
-    ].
-}.
-*]
-
-[*
-una función donde {
-  inicializo operadores abreviados de función.
-  establezco operador ¡1! con función como Castelog.variables.exclamacion.renderizar.ejs.operador con almacén como exclamacion.renderizar.ejs.almacen.
-  establezco almacenes de ¡1! como [].
-  retorno ¡dom.ui.ventana>&{
-    titulo: ¡dom.ui.ventana.titulo>&&["Título de ventana"]!,
-    cuerpo: ¡dom.elemento>"div"&&[
-      ¡dom.elemento>"textarea"&&!
-      ¡dom.elemento>"p"&&["Campo 1"]!
-    ]!,
-    pie: ¡dom.elemento>"template"&&[
-      ¡dom.ui.ventana.barra.de.estado.campo>&&["Campo 1"]!,
-      ¡dom.ui.ventana.barra.de.estado.campo>&&["Campo 2"]!,
-      ¡dom.ui.ventana.barra.de.estado.campo>&&["Campo 3"]!
-    ]!
-  }!
-}.
-
-
-Llamada a función:
-  ¡subselector.de.funcion>"param1"&{param:2}&[param,3]!
-Definición de función:
-  ¿subselector.de.funcion.a.sobreescribir>[param1 o en su defecto undefined,param2 o en su defecto undefined,param3 o en su defecto undefined]&{
-
-  }?
-*]
 
 asigno window.ff como una función donde retorno 500.
 
